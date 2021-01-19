@@ -31,9 +31,7 @@ img{
     height:100%;
     margin:0 auto;
     background:white ;
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
+    
     
   }
   &-left{
@@ -71,11 +69,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     &__box{
-      // width:40%;
-      // height:auto;
-      // background:white;
-      // border-radius:2.5%;
-      // margin:5%;
+     
     }
   }
   &-right{
@@ -100,45 +94,21 @@ img{
     font-size:2rem;
     margin-bottom:20px;
   }
-
-
   .form{
     display: flex;
     flex-direction: column;
     align-items: center;
     &__name{
-      width:50%;
-      height:36px;
-      margin-bottom:10px;
-      display: block;
-      border: 1px solid rgba(0,0,0,0.1);
-      border-radius: 3px;
+
     }
     &__email{
-      width:50%;
-      height:36px;
-      margin-bottom:10px;
-      display: block;
-      border: 1px solid rgba(0,0,0,0.1);
-      border-radius: 3px;
+     
     }
     &__question{
-      width:50%;
-      height:100px;
-      margin-bottom:40px;
-      display: block;
-      border: 1px solid rgba(0,0,0,0.1);
-      border-radius: 3px;
+     
     }
     &__submit{
-      width:20%;
-      height:32px;
-      border: 1px solid transparent;
-      background-color:#ffc400;
-      color:white;
-      border-radius:3px;
-      font-weight:bold;
-
+     
     }
   }
 }
